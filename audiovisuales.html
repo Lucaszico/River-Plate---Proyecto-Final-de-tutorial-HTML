@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Escudo.jpg" type="image/x-icon">
+    <title>River Plate</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <h1>River Plate</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="historial.html">Historial</a></li>
+                <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <video class="centrado"
+        src="assets/video/Borracho, siempre voy descontrolado (4K) (360p_30fps_H264-128kbit_AAC).mp4" controls></video>
+
+    <br><br>
+
+    <audio class="centrado" src="assets/audio/el mas grande.m4a" controls></audio>
+
+    <hr>
+
+    <h2 style="margin: 15px;">Algunos de sus ídolos</h2>
+    <section class="centrado">
+        <div class="gallery">
+
+            <a href="assets/img/Labruna.jpg"></a> <img src="assets/img/Labruna.jpg" alt="Angel Labruna">
+            <div class="desc">Angel Labruna</div>
+
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/Passarella.jpg"></a> <img src="assets/img/Passarella.jpg" alt="Daniel Passarella">
+
+            <div class="desc">Daniel Passarella</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/Francescoli.jpg"></a> <img src="assets/img/Francescoli.jpg" alt="Enzo Francescoli">
+            <div class="desc">Enzo Francescoli</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/Ortega.jpg"></a> <img src="assets/img/Ortega.jpg" alt="Ariel Ortega">
+            <div class="desc">Ariel Ortega</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/A. Carrizo.jpg"></a> <img src="assets/img/A. Carrizo.jpg" alt="Amadeo Carrizo">
+            <div class="desc">Amadeo Carrizo</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/B. Ferreyra.jpg"></a> <img src="assets/img/B. Ferreyra.jpg" alt="B. Ferreyra">
+            <div class="desc">Bernabé Ferreyra</div>
+        </div>
+
+
+        <div class="gallery">
+            <a href="assets/img/Sívori.jpg"></a> <img src="assets/img/Sívori.jpg" alt="Sivori">
+            <br>
+            <div class="desc">Enrique Omar Sívori</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/Alonso.jpg"></a> <img src="assets/img/Alonso.jpg" alt="Alonso">
+            <div class="desc">Norberto Osvaldo Alonso</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/R. Díaz.jpg"></a> <img src="assets/img/R. Díaz.jpg" alt="Ramón Díaz">
+
+            <div class="desc">Ramon Díaz</div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>

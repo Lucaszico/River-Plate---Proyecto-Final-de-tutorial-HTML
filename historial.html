@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Escudo.jpg" type="image/x-icon">
+    <title>River Plate</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>River Plate</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li> <a class="active" href="historial.html">Historial</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Últimos 5 partidos oficiales vs Boca Juniors</h2>
+    <hr>
+    <div>
+        <table>
+            <colgroup>
+                <col style="background-color: #949494;">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th style="background-color: #333;">Fecha</th>
+            <th style="background-color: #333;">Torneo</th>
+            <th style="background-color: #333;">Estadio</th>
+            <th style="background-color: #333;">Resultado</th>
+
+            <tr>
+                <td>3 de octubre de 2021</td>
+                <td>Liga Profesional 2021</td>
+                <td>El Monumental</td>
+                <td>River Plate 2-1 Boca Juniors</td>
+            </tr>
+
+            <tr>
+
+                <td>20 de marzo de 2022</td>
+                <td>Copa de la Liga Profesional 2022</td>
+                <td>El Monumental</td>
+                <td>River Plate 0-1 Boca Juniors</td>
+            </tr>
+
+            <tr>
+                <td>11 de septiembre de 2022</td>
+                <td>Liga Profesional 2022</td>
+                <td>La Bombonera</td>
+                <td>Boca Juniors 1-0 River Plate</td>
+            </tr>
+
+            <tr>
+                <td>7 de mayo de 2023</td>
+                <td>Liga Profesional 2023</td>
+                <td>El Monumental</td>
+                <td>River Plate 1-0 Boca Juniors</td>
+            </tr>
+
+            <tr>
+                <td>1 de octubre de 2023</td>
+                <td>Copa de la Liga Profesional 2023</td>
+                <td>La Bombonera</td>
+                <td>Boca Juniors 0-2 River Plate</td>
+            </tr>
+
+
+        </table>
+
+
+    </div>
+    <br>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
